@@ -19,16 +19,16 @@
   </li>
   <li>
     Pokud chcete omezit výběr platebních metod pro konkrétní dopravce (např. dobírka pro Zásilkovnu má mít rozdílnou cenu než dobírka přes jiného dopravce), můžete tak učinit v Omezení způsobu platby (V hlavní nabídce zvolit Components -> Zasilkovna -> Omezení způsobu platby). Automaticky jsou všechny kombinace povoleny. Nejprve je však nutné ručně upravit systémový soubor Virtuemartu dle instrukcí. Když vše provedete správně, budete informování o funkčnosti Omezení platby.<br><br>
-    <a href=""></a><br>    
+    <a href="https://cloud.githubusercontent.com/assets/13521096/8906980/2a677da8-3473-11e5-8557-9fccac29adf0.jpg"><img width=600 height=450 src="https://cloud.githubusercontent.com/assets/13521096/8906980/2a677da8-3473-11e5-8557-9fccac29adf0.jpg"></a><br></a><br>    
   </li>
   <li>
     Pokud máte vše nastaveno, je třeba povolit modul Zásilkovna, aby se zobrazoval při výběru dopravy vašim zákazníkům. Učiníte tak v záložce Configuration -> Shipping.<br><br>
-    <a href="/images/virtuemart/config_allow_module.jpg"><img width=600 height=350 src="/images/virtuemart/config_allow_module.jpg"></a><br><br>
+    <a href="https://cloud.githubusercontent.com/assets/13521096/8906976/2a646ab4-3473-11e5-8da2-40da54a1354e.jpg"><img width=600 height=350 src="https://cloud.githubusercontent.com/assets/13521096/8906976/2a646ab4-3473-11e5-8da2-40da54a1354e.jpg"></a><br><br>
     Poté již můžete modul Zásilkovna plně využívat.<br><br>
   </li>  
   <li>
     Dále až budete mít nějaké objednávky se způsobem dopravy Zásilkovna, můžete si je exportovat v CSV formátu pro hromadné podání zásilek:<br><br>
-    <a href="/images/virtuemart/export.jpg"><img width=600 height=348 src="/images/virtuemart/export.jpg"></a><br><br>
+    <a href="https://cloud.githubusercontent.com/assets/13521096/8906977/2a65c45e-3473-11e5-9579-dd1cd0e47f48.jpg"><img width=600 height=348 src="https://cloud.githubusercontent.com/assets/13521096/8906977/2a65c45e-3473-11e5-9579-dd1cd0e47f48.jpg"></a><br><br>
   </li>
 </ol>
 <h2>Informace o modulu</h2>
