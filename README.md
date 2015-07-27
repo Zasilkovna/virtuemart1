@@ -15,11 +15,11 @@
   </li>
   <li>
     V nastavení je nutné zadat klíč API. Váš klíč API je <code>41494564a70d6de6</code> a v případě potřeby jej najdete také ve své klientské sekci, pod <strong><em>Můj účet</em></strong>:<br> Dále je nutné povolit či zákázat cílové země zásilkovny, zadat cenu dopravy a další.  Nastavení uložíte kliknutím na tlačítko Save v pravém horním rohu administrace.<br>
-    <a href=""><img width=600 height=620 src="https://cloud.githubusercontent.com/assets/13521096/8906979/2a66eeba-3473-11e5-8228-9ac978d0b26c.jpg"></a><br><br>
+    <a href="https://cloud.githubusercontent.com/assets/13521096/8906981/2a67eb3a-3473-11e5-8ece-0fb1c05a66aa.jpg"><img width=600 height=620 src="https://cloud.githubusercontent.com/assets/13521096/8906981/2a67eb3a-3473-11e5-8ece-0fb1c05a66aa.jpg"></a><br><br>
   </li>
   <li>
     Pokud chcete omezit výběr platebních metod pro konkrétní dopravce (např. dobírka pro Zásilkovnu má mít rozdílnou cenu než dobírka přes jiného dopravce), můžete tak učinit v Omezení způsobu platby (V hlavní nabídce zvolit Components -> Zasilkovna -> Omezení způsobu platby). Automaticky jsou všechny kombinace povoleny. Nejprve je však nutné ručně upravit systémový soubor Virtuemartu dle instrukcí. Když vše provedete správně, budete informování o funkčnosti Omezení platby.<br><br>
-    <a href="https://cloud.githubusercontent.com/assets/13521096/8906981/2a67eb3a-3473-11e5-8ece-0fb1c05a66aa.jpg"></a><br>    
+    <a href=""></a><br>    
   </li>
   <li>
     Pokud máte vše nastaveno, je třeba povolit modul Zásilkovna, aby se zobrazoval při výběru dopravy vašim zákazníkům. Učiníte tak v záložce Configuration -> Shipping.<br><br>
