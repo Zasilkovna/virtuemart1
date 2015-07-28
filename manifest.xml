@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<!--  The extension commercial name: make it different form others at JED http://extensions.joomla.org/-->
+	<name>Zasilkovna</name>
+	<!-- The following elements are optional and free of formatting constraints --> 
+	<!-- Original creation date. Recommended: YYYY-MM-DD -->
+	<creationDate>2012-06-10</creationDate>
+	<author>Zásilkovna s.r.o.</author>
+	<authorEmail>technicka.podpora@zasilkovna.cz</authorEmail>
+	<authorUrl>http://www.zasilkovna.cz/</authorUrl>
+	<copyright>(c) 2012 Zásilkovna s.r.o.</copyright>
+	<license>License Info with link</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0</version>
+	<!--  The date for the actual version release -->
+	<releaseDate>2012-06-28</releaseDate>
+	<!--  Type of release: Bug fix, Security Fix, Minor update, Major update -->
+	<releaseType>First version</releaseType>
+	<downloadUrl>http://www.example.org/downloads/myjoomlaextensions/</downloadUrl>
+	<!-- The description is optional and defaults to the name -->
+	<description>Zasilkovna.cz shipping module</description>
+
+	<installfile>install.zasilkovna.php</installfile>            
+    <uninstallfile>uninstall.zasilkovna.php</uninstallfile> 
+     
+ 	<media destination="com_zasilkovna">		
+		<folder>media</folder>		
+	</media>
+	<administration>
+ 
+		<!-- Administration Menu Section -->
+                <!-- Name to display at the component menu. Should be the same as the extension commercial name -->
+		<menu>Zasilkovna</menu>
+		<submenu>
+			<!-- Note that all & must be escaped to &amp; for the file to be valid XML and be parsed by the installer -->
+			<menu link="page=order.zasilkovna&amp;option=com_virtuemart">Objednávky</menu>
+			<menu link="page=store.ship_payment&amp;option=com_virtuemart">Omezení způsobu platby</menu>
+		</submenu>
+		<files>						
+			<filename>zasilkovna.php</filename>
+			<filename>zasilkovna.cfg.php</filename>
+			<filename>zasilkovna.ini</filename>
+			
+			<filename>order.zasilkovna.php</filename>						
+			<filename>order.zasilkovna_export.php</filename>
+
+			<filename>store.ship_payment.php</filename>						
+			<filename>store.ship_payment_save.php</filename>						
+			
+			<filename>install.zasilkovna.php</filename>
+			<filename>uninstall.zasilkovna.php</filename>
+		</files>
+
+		<files>			
+			<folder>ship_module_cfg</folder>
+		</files>		
+	</administration>
+</install>

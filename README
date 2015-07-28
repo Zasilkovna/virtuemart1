@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------ SHIP-PAYMENT combination disabling -----------
+
+in /administrator/components/com_virtuemart/classes/ps_payment_method.php
+in function list_payment_radio($selector, $payment_method_id, $horiz) find 'while ($db->next_record()) {'
+after that insert 'if (!$this->paymentMethodAllowed($db->f("payment_method_id"))) continue; //added by ZASILKOVNA'
+after list_payment_radio function paste
+'
+//added by ZASILKOVNA
+	function paymentMethodAllowed($paymentMethodId){
+		GLOBAL $_REQUEST;
+		$shipping_rate_id=urldecode($_REQUEST['shipping_rate_id']);
+		$ship_arr=explode('|',$shipping_rate_id)	;
+		$carrier=$ship_arr[0];
+		$db =& JFactory::getDBO();
+		$q="SELECT carrier from #__zasilkovna_ship_payment ";
+		$q .= " WHERE carrier='$carrier' AND payment_method_id='$paymentMethodId'";
+		$db->setQuery($q);
+		$db->query();
+		if($db->getNumRows()){//if there is record in db that this combination is not allowed
+			return false;
+		}
+		return true;
+	}
+'
+
+
