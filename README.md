@@ -1,7 +1,7 @@
 <h1>Modul pro VirtueMart</h1>
 <h2>Instalace</h2>
 <ol style="color: black; ">
-  <li><a href="http://www.zasilkovna.cz/soubory/virtuemart-module.zip">Stáhnout soubor modulu »</a></li>
+  <li><a href="https://github.com/Zasilkovna/virtuemart1/raw/master/releases/zasilkovna-virtuemart-latest.zip">Stáhnout soubor modulu »</a></li>
   <li>
     Přihlašte se do administrace Joomly, otevřete nabídku Extensions a Install/Uninstall<br><br>
     <a href="https://cloud.githubusercontent.com/assets/13521096/8906978/2a65f8b6-3473-11e5-8ab2-7e25664329b6.jpg"><img src="https://cloud.githubusercontent.com/assets/13521096/8906978/2a65f8b6-3473-11e5-8ab2-7e25664329b6.jpg"></a><br><br>
