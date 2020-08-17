@@ -1,3 +1,5 @@
+# [DEPRECATED] - modul již není udržován/no longer actively maintained
+
 <h1>Modul pro VirtueMart</h1>
 <h2>Instalace</h2>
 <ol style="color: black; ">
